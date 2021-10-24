@@ -199,3 +199,44 @@ body {
 
 
 
+//   case studies 
+
+h6 {
+  color: #ffd105;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 57px;
+}
+a {
+  color: #ffd105;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 27px;
+}
+.btn-link{
+  color: #ffd105;
+  text-decoration: none;
+}
+.btn-link:hover{
+  color: #ffd105;
+  text-decoration: underline;
+}
+.section-heading{
+.text-center{
+  margin-left: auto;
+  margin-right: auto;
+  .content{
+    width: 500px;
+    color: red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+}
+}
+
