@@ -212,12 +212,7 @@ h1 {
   font-size: 57px;
   line-height: 57px;
 }
-a {
-  color: #ffd105;
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 27px;
-}
+
 .btn-link{
   color: #ffd105;
   text-decoration: none;
@@ -226,17 +221,68 @@ a {
   color: #ffd105;
   text-decoration: underline;
 }
+
+
+.btn-primary{
+  background-color: #ffd105;
+  border-radius: 30px;
+  border: none;
+}
+
+// /* Section Heading Starts*/
+
 .section-heading{
-.text-center{
+  &.text-center{
   margin-left: auto;
   margin-right: auto;
+  }
+  h6{
+    margin-bottom: 15px;
+  }
+  h1{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+    &:after{
+      content: '';
+      display: block;
+      height: 4px;
+      width: 160px;
+      background-color: #ffd105;
+    }
+      
+    &.text-center{
+      h1:after{
+      margin-left: auto;
+      margin-right: auto;
+      }
+    }
+  }
+  p{
+    a{
+      color: #ffd105;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 27px;
+    }
+  }
   .content{
-    width: 500px;
-    color: red;
+    width: 657px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-  } 
+  }
 }
+
+// /* Section Heading Ends*/
+
+
+// /* Section card Starts*/
+
+.card{
+  height: 442px;
 }
+
+// /* Section card Ends*/
+
 
