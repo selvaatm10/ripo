@@ -232,10 +232,6 @@ h1 {
 // /* Section Heading Starts*/
 
 .section-heading{
-  &.text-center{
-  margin-left: auto;
-  margin-right: auto;
-  }
   h6{
     margin-bottom: 15px;
   }
@@ -249,9 +245,11 @@ h1 {
       height: 4px;
       width: 160px;
       background-color: #ffd105;
+      margin-top: 20px;
     }
+  }
       
-    &.text-center{
+    &.section-heading-center{
       h1:after{
       margin-left: auto;
       margin-right: auto;
@@ -265,12 +263,11 @@ h1 {
       font-size: 19px;
       line-height: 27px;
     }
-  }
-  .content{
-    width: 657px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    &.content{
+      width: 657px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
   }
 }
 
@@ -279,8 +276,46 @@ h1 {
 
 // /* Section card Starts*/
 
+// .card{
+//     border: none;
+//     box-shadow: 0 15px 30px 0 rgb(101, 105, 167, 0.18);
+//     &:hover{
+//     box-shadow: 0 0 30px 0 rgb(101, 105, 167, 0.4);
+//     }
+  
+//   .card-body{
+//      padding: 30px;
+    
+//     .card-title{
+//       font-weight: 500;
+//       color: #2b2b2b;
+//       font-size: 21px;
+//       line-height: 21px;
+//     }
+
+//     .card-text{
+//       color: #656868;
+//       font-size: 21px;
+//       line-height: 24px;
+//       font-weight: 400;
+//     }
+//     .card-link{
+//       font-size: 16px;
+//       font-weight: 600;
+//       line-height: 21px;
+//       color: #ffd105;
+//       &:hover{
+//         color: #2b2b2b;
+//       }
+//     }
+//   }
+// }
+
+
 .card{
-  height: 442px;
+  &.card-type-1{
+    border: none;
+  }
 }
 
 // /* Section card Ends*/
