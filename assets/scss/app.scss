@@ -219,7 +219,7 @@ h1 {
 }
 .btn-link:hover{
   color: #ffd105;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
@@ -278,17 +278,23 @@ h1 {
 
 .card-type-1{
     border: none;
-    box-shadow: 0 15px 30px 0 rgb(101, 105, 167, 0.18);
+    box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.18);
     &:hover{
-    box-shadow: 0 0 30px 0 rgb(101, 105, 167, 0.4);
+    box-shadow: 0 0 30px 0 rgba(101, 105, 167, 0.4);
     }
     .card-body{
       padding: 30px;
       .card-title{
+        text-transform: uppercase;
         font-weight: 500;
         color: #2b2b2b;
         font-size: 21px;
         line-height: 21px;
+        margin-bottom: 20px;
+        i{
+          padding-right: 10px;
+          color: #ffd105;
+        }
       }
       .card-text{
         color: #656868;
@@ -301,6 +307,7 @@ h1 {
         font-weight: 600;
         line-height: 21px;
         color: #ffd105;
+        text-decoration: none;
         &:hover{
           color: #2b2b2b;
         }
