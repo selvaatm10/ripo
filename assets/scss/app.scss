@@ -332,12 +332,14 @@ h1 {
 
 // <!-- Nav Section Starts -->
 
-.nav{
-  text-transform: uppercase;
+.nav-tabs-1{
   .nav-item{
-    .nan-link{
+    .nav-link{
+      text-transform: uppercase;
       &.active{
+        border: none;
         border-bottom: solid 3px #7862a5;
+
       }
     }
   }
@@ -345,5 +347,47 @@ h1 {
 
 // <!-- Nav Section Ends -->
 
+// <!-- Carousel-1 Section Starts -->
 
+.carousel-1{
+  .carousel-caption{
+    text-align: left;
+    left: 30px;
+  }
+}
+
+// <!-- Carousel-1 Section Ends -->
+
+
+// <!-- form-style-1 Section Starts -->
+
+.form-style-1{
+  .form-label, .form-check-label{
+    color: #7c8080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .form-control{
+    border: none;
+    border-bottom: solid 2px #2b2b2b;
+    border-radius: 0;
+    background: none;
+    &:focus{
+      border-bottom: solid 2px #ffd105;
+      box-shadow: none;
+    }
+  }
+}
+
+// <!-- form-style-1 Section Ends -->
+
+// <!-- Footer-top Form-1 Section Starts -->
+
+.form-wrapper-1{
+  background-color: #3d3d3d;
+  padding: 30px 20px;
+}
+
+// <!-- Footer-top Form-1 Section Ends -->
 
