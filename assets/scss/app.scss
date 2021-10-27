@@ -283,6 +283,7 @@ h1 {
     }
     .card-body{
       padding: 30px;
+
       .card-title{
         text-transform: uppercase;
         font-weight: 500;
@@ -307,21 +308,42 @@ h1 {
         font-size: 21px;
         line-height: 24px;
         font-weight: 400;
+        margin-bottom: 15px;
       }
       .card-link{
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 21px;
-        color: #ffd105;
-        text-decoration: none;
-        &:hover{
-          color: #2b2b2b;
+        // font-size: 16px;
+        // font-weight: 600;
+        // line-height: 21px;
+        // color: #ffd105;
+        // text-decoration: none;
+        // &:hover{
+        //   color: #2b2b2b;
         }
       }
-    }
+      .card-footer:last-child{
+          margin: 0 10px;
+      }
+      
 }
 
 
 // /* Section card Ends*/
+
+
+// <!-- Nav Section Starts -->
+
+.nav{
+  text-transform: uppercase;
+  .nav-item{
+    .nan-link{
+      &.active{
+        border-bottom: solid 3px #7862a5;
+      }
+    }
+  }
+}
+
+// <!-- Nav Section Ends -->
+
 
 
