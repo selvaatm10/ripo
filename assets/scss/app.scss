@@ -202,7 +202,6 @@ body {
 //   case studies 
 
 h6 {
-  color: #ffd105;
   font-weight: 600;
   font-size: 14px;
   line-height: 14px;
@@ -212,6 +211,17 @@ h1 {
   font-size: 57px;
   line-height: 57px;
 }
+
+
+.color-1{
+  color: #ffd105;
+}
+.color-2{
+  color: #989898;
+}
+
+
+
 
 .btn-link{
   color: #ffd105;
@@ -227,6 +237,25 @@ h1 {
   background-color: #ffd105;
   border-radius: 30px;
   border: none;
+}
+
+.heading-underline{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  &:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #ffd105;
+    margin-top: 20px;
+  }
+  &.text-center {
+    &:after {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 
 // /* Section Heading Starts*/
@@ -283,7 +312,6 @@ h1 {
     }
     .card-body{
       padding: 30px;
-
       .card-title{
         text-transform: uppercase;
         font-weight: 500;
@@ -320,9 +348,9 @@ h1 {
         //   color: #2b2b2b;
         }
       }
-      .card-footer:last-child{
-          margin: 0 10px;
-      }
+    .card-footer:last-child{
+      margin: 0 30px;
+    }
       
 }
 
@@ -349,10 +377,11 @@ h1 {
 
 // <!-- Carousel-1 Section Starts -->
 
-.carousel-1{
-  .carousel-caption{
+.carousel-1 {
+  .carousel-caption {
     text-align: left;
-    left: 30px;
+    left: 50px;
+    top: 50px;
   }
 }
 
