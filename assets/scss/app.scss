@@ -374,19 +374,50 @@ h1 {
 // <!-- Nav Section Starts -->
 
 .nav-tabs-1{
+  margin-bottom: 40px;
   .nav-item{
+    border: none;
     .nav-link{
       text-transform: uppercase;
-      &.active{
+      border: none;
+      &:focus{
         border: none;
         border-bottom: solid 3px #7862a5;
-
       }
     }
   }
 }
 
 // <!-- Nav Section Ends -->
+
+.navbar{
+  .navbar-brand{
+    img{
+      width: 200px;
+    }
+  }
+  .navbar-nav{
+    .nav-item{
+      .nav-link{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        color: #2b2b2b;
+        .active{
+
+        }
+        .dropdown{
+
+        }
+      }
+    }
+  }
+}
+
+// Navabar Section starts
+
+// Navabar Section starts
+
 
 // <!-- Carousel-1 Section Starts -->
 
@@ -423,6 +454,8 @@ h1 {
 }
 
 // <!-- form-style-1 Section Ends -->
+
+
 
 // <!-- Footer-top Form-1 Section Starts -->
 
