@@ -250,7 +250,18 @@ h1 {
   background-color: #ffd105;
   border-radius: 30px;
   border: none;
+  &.text-center{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+
+
+.page-section{
+  padding-top: 60px;
+}
+
+
 
 .heading-underline{
   padding-bottom: 10px;
@@ -366,7 +377,7 @@ h1 {
     }
       
 }
-
+ 
 
 // /* Section card Ends*/
 
@@ -431,6 +442,28 @@ h1 {
 
 // <!-- Carousel-1 Section Ends -->
 
+/* Section Nav Link-1 Starts*/
+// TODO: Implement hover style
+.nav-link-1 {
+  h4 {
+    line-height: 21px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  ul.nav {
+    .nav-item {
+      .nav-link {
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #fff;
+      }
+    }
+  }
+}
+/* Section Nav Link-1 Ends*/
+
 
 // <!-- form-style-1 Section Starts -->
 
@@ -466,3 +499,15 @@ h1 {
 
 // <!-- Footer-top Form-1 Section Ends -->
 
+// <!-- Footer Section -->
+
+footer{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+  background-color: #2b2b2b;
+  background-image: url(../images/footer-bg.png);
+}
+
+
+// <!-- Footer Section Ends -->
